@@ -10,5 +10,10 @@ if (agregarNombres == ''){
 }else{
     amigos.push(agregarNombres)
     console.log(amigos)
+    limpiarCaja()
 }
+}
+
+function limpiarCaja() {
+    document.querySelector('#amigo').value = '';
 }
